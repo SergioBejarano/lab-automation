@@ -1,0 +1,51 @@
+{
+  "target": "google.com",
+  "mode": "domain",
+  "timestamp": "20260509_104007",
+  "whois": {
+    "status": "unavailable",
+    "reason": "timeout",
+    "registrar": "",
+    "registration_date": "",
+    "expiry_date": "",
+    "registrant_org": ""
+  },
+  "dns": {
+    "A": [
+      "142.251.133.110"
+    ],
+    "MX": [
+      "10 smtp.google.com."
+    ],
+    "NS": [
+      "ns1.google.com.",
+      "ns3.google.com.",
+      "ns4.google.com.",
+      "ns2.google.com."
+    ],
+    "TXT": [
+      "\"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95\"",
+      "\"apple-domain-verification=30afIBcvSuDV2PLX\"",
+      "\"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=\"",
+      "\"v=spf1 include:_spf.google.com ~all\"",
+      "\"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ\"",
+      "\"onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0\""
+    ]
+  },
+  "http": {
+    "status": "ok",
+    "headers": {
+      "server": "gws",
+      "x-powered-by": "",
+      "content-security-policy": "",
+      "strict-transport-security": "",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": ""
+    },
+    "missing_security_headers": [
+      "content-security-policy",
+      "strict-transport-security",
+      "x-content-type-options"
+    ]
+  }
+}

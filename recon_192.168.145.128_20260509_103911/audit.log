@@ -1,0 +1,8 @@
+2026-05-09 10:39:11,993 [INFO] === recon.py started | target=192.168.145.128 mode=ip output=recon_192.168.145.128_20260509_103911 ===
+2026-05-09 10:39:11,993 [INFO] RUN: nmap -sV --open --top-ports 100 -oX recon_192.168.145.128_20260509_103911/nmap.xml 192.168.145.128
+2026-05-09 10:39:22,513 [INFO] OK:  nmap -sV --open --top-ports 100 -oX recon_192.168.145.128_20260509_103911/nmap.xml 192.168.145.128 (exit 0)
+2026-05-09 10:39:22,514 [INFO] RUN: dig -x 192.168.145.128 +short
+2026-05-09 10:39:22,600 [INFO] OK:  dig -x 192.168.145.128 +short (exit 0)
+2026-05-09 10:39:22,600 [INFO] RUN: whois 192.168.145.128
+2026-05-09 10:39:42,624 [ERROR] TIMEOUT: whois 192.168.145.128 after 20s
+2026-05-09 10:39:42,625 [INFO] === recon.py finished | output=recon_192.168.145.128_20260509_103911 ===

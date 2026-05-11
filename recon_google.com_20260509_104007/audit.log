@@ -1,0 +1,14 @@
+2026-05-09 10:40:07,382 [INFO] === recon.py started | target=google.com mode=domain output=recon_google.com_20260509_104007 ===
+2026-05-09 10:40:07,383 [INFO] RUN: whois google.com
+2026-05-09 10:40:27,405 [ERROR] TIMEOUT: whois google.com after 20s
+2026-05-09 10:40:27,405 [INFO] RUN: dig +short A google.com
+2026-05-09 10:40:27,473 [INFO] OK:  dig +short A google.com (exit 0)
+2026-05-09 10:40:27,473 [INFO] RUN: dig +short MX google.com
+2026-05-09 10:40:27,591 [INFO] OK:  dig +short MX google.com (exit 0)
+2026-05-09 10:40:27,593 [INFO] RUN: dig +short NS google.com
+2026-05-09 10:40:27,636 [INFO] OK:  dig +short NS google.com (exit 0)
+2026-05-09 10:40:27,636 [INFO] RUN: dig +short TXT google.com
+2026-05-09 10:40:27,787 [INFO] OK:  dig +short TXT google.com (exit 0)
+2026-05-09 10:40:27,787 [INFO] RUN: curl -IL -s --max-time 10 https://google.com
+2026-05-09 10:40:28,528 [INFO] OK:  curl -IL -s --max-time 10 https://google.com (exit 0)
+2026-05-09 10:40:28,529 [INFO] === recon.py finished | output=recon_google.com_20260509_104007 ===

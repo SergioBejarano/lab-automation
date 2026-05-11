@@ -1,0 +1,36 @@
+{
+  "target": "192.168.145.128",
+  "mode": "ip",
+  "timestamp": "20260509_103911",
+  "nmap": {
+    "status": "ok",
+    "hosts": [
+      {
+        "ip": "192.168.145.128",
+        "open_ports": [
+          {
+            "port": 22,
+            "service": "ssh",
+            "version": "OpenSSH 10.2p1 Debian 3"
+          },
+          {
+            "port": 80,
+            "service": "http",
+            "version": "Apache httpd 2.4.66"
+          }
+        ]
+      }
+    ]
+  },
+  "reverse_dns": {
+    "status": "ok",
+    "hostnames": []
+  },
+  "whois": {
+    "status": "unavailable",
+    "reason": "timeout",
+    "organization": "",
+    "country": "",
+    "cidr": ""
+  }
+}
