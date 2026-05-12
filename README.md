@@ -1,9 +1,19 @@
-# Security Automation Lab — README
+<div align="center">
 
-**Course topic:** Automation (Lab 15)
-**Environment:** Kali Linux
-**Language:** Python 3.10+
-**External tools required:** `nmap`, `whois`, `dnsutils` (`dig`), `curl`, `ssh-keyscan`
+<h1>🔐 Security Automation Lab</h1>
+
+<p>
+  <img src="https://img.shields.io/badge/Course-SPTI%20·%20Lab%2015-blueviolet?style=flat-square" alt="Course"/>
+  <img src="https://img.shields.io/badge/Environment-Kali%20Linux-557C94?style=flat-square&logo=linux&logoColor=white" alt="Environment"/>
+  <img src="https://img.shields.io/badge/Language-Python%203.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Language"/>
+  <img src="https://img.shields.io/badge/Tools-nmap%20·%20whois%20·%20dig%20·%20curl-333?style=flat-square" alt="Tools"/>
+</p>
+
+<p>
+  📄 <a href="LAB15_SPTI.pdf"><strong>Hands-on Lab Document — LAB15_SPTI.pdf</strong></a>
+</p>
+
+</div>
 
 ---
 
@@ -16,6 +26,7 @@
 5. [Part 3 — Log Analysis and Anomaly Detection](#part-3--log-analysis-and-anomaly-detection)
 6. [Part 4 — Integrated Reconnaissance Tool](#part-4--integrated-reconnaissance-tool)
 7. [Files — Submitted Deliverables](#files--submitted-deliverables)
+8. [Contributors](#contributors)
 
 ---
 
@@ -323,20 +334,19 @@ Results from the two test runs:
 
 ### ✅ Keep
 
-| File | Why |
-|------|-----|
-| `scanner_final.py` | Final version of Part 1 with full CLI and JSON output |
-| `scanner_v1.py` | Required for Part 1A benchmark comparison |
-| `scanner_v2_threads.py` | Required for Part 1A benchmark comparison |
-| `scanner_v3_asyncio.py` | Required for Part 1B asyncio implementation |
-| `parse_scan.py` | Part 2 deliverable |
-| `auth_analysis.py` | Part 3A deliverable |
-| `log_analysis.py` | Part 3C/D deliverable |
-| `report.md` | Part 3E output — combined findings report |
-| `recon.py` | Part 4 deliverable |
-| `scan.xml` | Input data for Part 2 |
-| `hosts.json` | Output of parse_scan.py — documents Part 2 result |
-| `recon_192.168.145.128_*/` | Sample output directory for Part 4 (IP mode) |
-| `recon_google.com_*/` | Sample output directory for Part 4 (domain mode) |
-
-
+| File | Description |
+|------|-------------|
+| [`scanner_final.py`](scanner_final.py) | Final version of Part 1 with full CLI and JSON output |
+| [`scanner_v1.py`](scanner_v1.py) | Required for Part 1A benchmark comparison |
+| [`scanner_v2_threads.py`](scanner_v2_threads.py) | Required for Part 1A benchmark comparison |
+| [`scanner_v3_asyncio.py`](scanner_v3_asyncio.py) | Required for Part 1B asyncio implementation |
+| [`parse_scan.py`](parse_scan.py) | Part 2 deliverable |
+| [`auth_analysis.py`](auth_analysis.py) | Part 3A deliverable |
+| [`log_analysis.py`](log_analysis.py) | Part 3C/D deliverable |
+| [`report.md`](report.md) | Part 3E output — combined findings report |
+| [`recon.py`](recon.py) | Part 4 deliverable |
+| [`scan.xml`](scan.xml) | Input data for Part 2 |
+| [`hosts.json`](hosts.json) | Output of parse_scan.py — documents Part 2 result |
+| [`recon_192.168.145.128_20260509_103911/`](recon_192.168.145.128_20260509_103911) | Sample output directory for Part 4 (IP mode) |
+| [`recon_google.com_20260509_104007/`](recon_google.com_20260509_104007) | Sample output directory for Part 4 (domain mode) |
+| [`LAB15_SPTI.pdf`](LAB15_SPTI.pdf) | Hands-on lab instructions document |
